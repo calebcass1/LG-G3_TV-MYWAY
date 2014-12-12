@@ -18,11 +18,11 @@
      for different hardware or product builds. -->
 
 <resources>
-    <!-- Flag indicating if the phone is a world phone -->
-    <bool name="world_phone">true</bool>
+    <!-- Flag indicating if the phone is a world phone >
+    <bool name="world_phone">true</bool-->
 
-    <!-- Show cdma auto network mode in (global) roaming -->
-    <bool name="config_show_cdma" translatable="false">true</bool>
+    <!-- Show cdma auto network mode in (global) roaming >
+    <bool name="config_show_cdma" translatable="false">true</bool-->
 
     <!-- Show APN Settings for some CDMA carriers -->
     <bool name="config_show_apn_setting_cdma">true</bool>
