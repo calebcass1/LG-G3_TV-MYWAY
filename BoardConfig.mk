@@ -25,8 +25,13 @@ BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/lge/ls990/bluetooth
 BOARD_HAVE_BLUETOOTH_BCM := true
 
 # Kernel
-TARGET_KERNEL_CONFIG := cyanogenmod_ls990_defconfig
+TARGET_KERNEL_CONFIG := illusion_ls990_defconfig
 TARGET_REQUIRES_BUMP := true
+
+# Custom Kernel Toolchain
+TARGET_GCC_VERSION_ARM := 4.10-sm
+# Graphite optimizations
+SYMMETRY := true
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 16777216
