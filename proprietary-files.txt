@@ -42,6 +42,11 @@ vendor/lib/libqmi_csvt_srvc.so
 vendor/lib/libqmi_encdec.so
 vendor/lib/libqmiservices.so
 
+# NFC
+lib/hw/nfc.default.so
+lib/hw/nfc.lg.so
+vendor/firmware/libpn544_fw.so
+
 # Radio
 bin/netmgrd
 bin/qmuxd
